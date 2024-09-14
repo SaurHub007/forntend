@@ -31,3 +31,20 @@ body {
     text-wrap: balance;
   }
 }
+
+
+@keyframes lineSlide {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  100% {
+    width: 50%;
+    opacity: 1;
+  }
+}
+
+.animate-lineSlide {
+  animation: lineSlide 2s ease-in-out forwards;
+}
+
